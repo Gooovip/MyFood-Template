@@ -65,7 +65,7 @@ a{
 	font-family:Chiller;
 	text-shadow: 2px 2px 2px #8df49f;
 	margin:8px 0 0 0;
-}	
+	}	
 .menu{
 	color:white;
 	padding-right:60px;
@@ -73,21 +73,20 @@ a{
 	margin:0 auto;
 	font-size:3vh;
 	font-family: Arial;
-	
-}	
+	}	
 
 .nav-item{
 	padding-right:50px;
 	padding-top:10px;
-}
+	}
 .nav-link:hover{
 	color:#8df49f;	
-}
+	}
 .home-link{
 	color:#8df49f;
 	border-bottom:3px #8df49f solid;
 	padding-bottom:15px;	
-}
+	}
 .nav-link:hover .menu-links{
 	border-bottom:3px #8df49f solid;
 	padding-bottom:15px;
@@ -100,7 +99,7 @@ a{
 .logo{
 	color:white;
 	text-align:center;
-}
+	}
 .logo-big-text {
 	font-size:20vh;
 	text-align:center;
@@ -110,7 +109,7 @@ a{
 	font-family:Chiller;
 	position:relative;
 	z-index:1;
-}
+	}
 .logo-text{
 	font-size:5vh;
 	color:white;
@@ -136,7 +135,7 @@ a{
 	background-color:transparent;
 	z-index:4;
 	float:right;
-}
+	}
 	
 
 /*! CSS About us page */
@@ -145,7 +144,7 @@ a{
 #about-us-scroll{
 	background-color:white;
 	height:100%;
-}
+	}
 .welcome{
 	text-align:center;
 	color:black;
@@ -153,16 +152,15 @@ a{
 	font-size:4vh;
 	font-family:Arial;
 	margin-top:50px;margin-bottom:50px;
-}
+	}
 .about-text{
-	
 	color:black;
 	font-size:3vh;
 	font-family:Arial;
 	padding:30px;
 	width:80vw;
 	margin:0 auto;
-}	
+	}	
 
 
 /*! CSS Photos page */
@@ -170,7 +168,7 @@ a{
 #photos-scroll{
 	background-color:white;
 	height:100%;
-}
+	}
 
 /*! CSS Menus page */
 
@@ -178,10 +176,10 @@ a{
 #menus-scroll{
 	background-color:white;
 	height:100%;
-}
+	}
 .head-menus{
 	margin-top:50px;
-}
+	}
 
 /*! CSS Feedbacks page */
 
@@ -204,7 +202,8 @@ a{
 #contact-scroll{
 	width: 100%;
     background-color:#565252;
-}
+	}
+	
 .forms{color:white;}
 .time-open{color:white; margin-top:40px; font-size:25px;}
 .time-open{color:white; margin-top:40px; font-size:25px;}
@@ -225,4 +224,4 @@ footer{
 	padding-bottom:5px;
 	padding-left:20px;
 	text-align:center;
-}
+	}
