@@ -126,10 +126,20 @@ a{
 .border-line{
 	border-bottom:2px white solid;
 	padding:10px;
-	
 	}	
+	
+	
+/*! Go Up Boutton */	
+	
+.go-up{
+	position:fixed;
+	background-color:transparent;
+	z-index:4;
+	float:right;
+}
+	
 
-/*! CSS Home About us page */
+/*! CSS About us page */
 
 
 #about-us-scroll{
@@ -155,14 +165,14 @@ a{
 }	
 
 
-/*! CSS Home Photos page */
+/*! CSS Photos page */
 
 #photos-scroll{
 	background-color:white;
 	height:100%;
 }
 
-/*! CSS Home Menus page */
+/*! CSS Menus page */
 
 
 #menus-scroll{
@@ -173,6 +183,46 @@ a{
 	margin-top:50px;
 }
 
+/*! CSS Feedbacks page */
+
+#feedbacks-scroll{
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2019/08/10/22/34/food-4397860_1280.jpg") no-repeat center fixed;
+	background-size: cover;
+	position: relative;
+    overflow: hidden;
+	}
+
+.name{color:white;}
+.fas{color:yellow;}
+.feedback-text{color:white; width:200px; margin:0 auto; padding-top:10px;}
+
+
+/*! CSS Contact us page */
+
+
+#contact-scroll{
+	width: 100%;
+    background-color:#565252;
+}
+.forms{color:white;}
+.time-open{color:white; margin-top:40px; font-size:25px;}
+.time-open{color:white; margin-top:40px; font-size:25px;}
+.adrress{color:white; margin-top:40px; font-size:16px;}
 
 
 
+/*! CSS Footer */
+
+
+footer{
+	height:100%;
+	width:100%;
+	background-color:black;
+	color:white;
+	font-size:16px;
+	padding-top:15px;
+	padding-bottom:5px;
+	padding-left:20px;
+	text-align:center;
+}
