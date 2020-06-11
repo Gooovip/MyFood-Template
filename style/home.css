@@ -50,19 +50,21 @@ a{
 
 
 .top-bar {
-    width: 100%;
+    width: 95%;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     box-shadow: inset -1px 0 0 0 rgba(255, 255, 255, 0.065);
 	margin-top:0;
 	padding-top:0;
+	position:absolute;
+	z-index:2;
 	}
 .small-logo{
 	color:#f9f9f9;
 	font-size:8vh;
 	font-family:Chiller;
 	text-shadow: 2px 2px 2px #8df49f;
-	margin:8px 0 0 10px;
+	margin:8px 0 0 0;
 }	
 .menu{
 	color:white;
@@ -71,6 +73,7 @@ a{
 	margin:0 auto;
 	font-size:3vh;
 	font-family: Arial;
+	
 }	
 
 .nav-item{
@@ -101,10 +104,12 @@ a{
 .logo-big-text {
 	font-size:20vh;
 	text-align:center;
-	margin-top:100px;
+	margin-top:170px;
 	color:#f9f9f9;
 	text-shadow: 5px 5px 2px #8df49f;
 	font-family:Chiller;
+	position:relative;
+	z-index:1;
 }
 .logo-text{
 	font-size:5vh;
@@ -115,6 +120,8 @@ a{
 	text-shadow: 2px 2px 2px black;
 	font-family:Chiller;
 	font-weight:bold;
+	position:relative;
+	z-index:1;
 	}
 .border-line{
 	border-bottom:2px white solid;
@@ -127,7 +134,45 @@ a{
 
 #about-us-scroll{
 	background-color:white;
-	height:100vh;
+	height:100%;
+}
+.welcome{
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	font-size:4vh;
+	font-family:Arial;
+	margin-top:50px;margin-bottom:50px;
+}
+.about-text{
+	
+	color:black;
+	font-size:3vh;
+	font-family:Arial;
+	padding:30px;
+	width:80vw;
+	margin:0 auto;
+}	
+
+
+/*! CSS Home Photos page */
+
+#photos-scroll{
+	background-color:white;
+	height:100%;
 }
 
-	
+/*! CSS Home Menus page */
+
+
+#menus-scroll{
+	background-color:white;
+	height:100%;
+}
+.head-menus{
+	margin-top:50px;
+}
+
+
+
+
